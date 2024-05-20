@@ -29,8 +29,9 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/experience" className="p-4 hover:text-gray-300">
+            <a href="#experience" className="p-4 hover:text-gray-300" onClick={handleNavClick}>
               Experience
+              
             </a>
           </li>
 
